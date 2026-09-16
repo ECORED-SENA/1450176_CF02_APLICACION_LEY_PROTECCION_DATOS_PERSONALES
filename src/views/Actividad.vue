@@ -19,10 +19,10 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Buenas Prácticas para la Protección de Datos Personales',
       titulo: 'Cuestionario',
       introduccion:
-        '<b>Objetivo:</b> evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b>Objetivo:</b> identificar los conceptos clave relacionados con el diagnóstico, tratamiento responsable, protección, control y gestión de riesgos de los datos personales.',
       barajarPreguntas: false,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
@@ -30,60 +30,67 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            '¿Cuál es el propósito principal del diagnóstico organizacional del tratamiento de datos personales?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto:
+                'Reconocer cómo se recolecta, almacena, usa, comparte y conserva la información.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'Establecer únicamente los costos tecnológicos destinados a almacenar la información.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Determinar exclusivamente las funciones laborales asignadas a cada área organizacional.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Identificar solamente los documentos físicos existentes dentro de la organización.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. <em>Board</em> del <em>software</em> EAGLE.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+            '¿Qué característica debe tener la finalidad del tratamiento de datos personales?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto:
+                'Ser general, flexible y aplicable a cualquier actividad futura prevista.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto:
+                'Ser clara, específica y comprensible para el titular de los datos.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Ser reservada, interna y conocida solamente por el personal administrativo autorizado.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Ser amplia, permanente y modificable según las necesidades comerciales posteriores.',
               esCorrecta: false,
             },
           ],
@@ -92,28 +99,33 @@ export default {
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: '@/assets/actividad/imagen1.png',
+          texto:
+            '¿Qué tipo de datos requiere mayor reserva por pertenecer al ámbito personal del titular?',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto:
+                'Datos públicos disponibles en registros y documentos oficiales de libre consulta.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'Datos semiprivados relacionados con información financiera y decisiones de carácter comercial.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto:
+                'Datos privados relacionados con información personal, laboral, familiar o contractual.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Datos institucionales relacionados con procesos administrativos y actividades generales de gestión.',
               esCorrecta: false,
             },
           ],
@@ -123,29 +135,33 @@ export default {
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+            '¿Cuál de las siguientes acciones corresponde a una medida reforzada para proteger datos sensibles?',
+          imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto:
+                'Permitir su consulta general cuando faciliten las actividades administrativas de la organización.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'Conservarlos permanentemente aunque hayan dejado de ser necesarios para el proceso correspondiente.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Compartirlos entre todas las áreas para facilitar la gestión interna de la organización.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto:
+                'Restringir su acceso únicamente al personal debidamente autorizado para realizar el tratamiento.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -153,28 +169,33 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+          texto:
+            '¿Qué debe solicitar un formulario adecuado para la recolección de datos personales?',
+          imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto:
+                'Únicamente los datos necesarios para cumplir con una finalidad previamente definida.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'Todos los datos disponibles que puedan resultar útiles para actividades organizacionales futuras.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Información adicional del titular aunque no guarde relación directa con el trámite.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'La mayor cantidad posible de información para completar posteriormente diferentes bases organizacionales.',
               esCorrecta: false,
             },
           ],
@@ -184,28 +205,32 @@ export default {
         {
           id: 6,
           texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
+            '¿Qué permite demostrar una autorización física o digital conservada adecuadamente?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto:
+                'Que todos los datos recolectados pueden utilizarse libremente para cualquier actividad organizacional.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto:
+                'Que el titular autorizó el tratamiento de sus datos para una finalidad determinada.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Que la organización puede conservar indefinidamente toda la información proporcionada por el titular.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Que cualquier trabajador puede consultar los datos recolectados durante sus actividades laborales.',
               esCorrecta: false,
             },
           ],
@@ -215,28 +240,32 @@ export default {
         {
           id: 7,
           texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+            '¿Qué situación constituye un hallazgo básico durante el diagnóstico del tratamiento de datos?',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto:
+                'La existencia de responsables claramente definidos para administrar cada base de datos.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'La actualización periódica de las políticas internas relacionadas con el tratamiento de información.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto:
+                'La existencia de bases de datos antiguas que permanecen almacenadas sin depuración.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'La aplicación de controles adecuados para restringir el acceso a información personal reservada.',
               esCorrecta: false,
             },
           ],
@@ -246,29 +275,33 @@ export default {
         {
           id: 8,
           texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: '@/assets/actividad/imagen2.png',
+            '¿Cuál es el propósito principal de los controles administrativos para proteger datos personales?',
+          imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto:
+                'Proteger exclusivamente los dispositivos tecnológicos donde permanecen almacenados los datos personales.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'Restringir físicamente el ingreso de trabajadores a todas las instalaciones de la organización.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Sustituir las políticas internas mediante herramientas automáticas de almacenamiento y recuperación documental.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto:
+                'Establecer reglas, responsabilidades, procedimientos y formación para manejar adecuadamente los datos personales.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -277,28 +310,32 @@ export default {
         {
           id: 9,
           texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Qué función cumplen las políticas internas de tratamiento de datos personales?',
+          imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto:
+                'Orientar cómo recolectar, usar, almacenar, proteger y eliminar los datos dentro de la organización.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'Autorizar automáticamente cualquier tratamiento realizado por las diferentes áreas de la organización.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Permitir que cada trabajador establezca individualmente las condiciones para utilizar información personal.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Reemplazar los controles técnicos y físicos implementados para proteger adecuadamente la información personal.',
               esCorrecta: false,
             },
           ],
@@ -308,28 +345,32 @@ export default {
         {
           id: 10,
           texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Cuál es una consecuencia de no definir claramente los roles y responsabilidades?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto:
+                'Mayor control sobre las personas que pueden consultar información dentro de cada proceso.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto:
+                'Mayor riesgo de accesos indebidos, pérdida de soportes y uso de datos no autorizado.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Mayor precisión para determinar quién debe responder oportunamente las solicitudes de los titulares.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Mayor capacidad para identificar las personas responsables de actualizar las bases de datos.',
               esCorrecta: false,
             },
           ],
@@ -339,28 +380,32 @@ export default {
         {
           id: 11,
           texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
+            '¿Qué compromiso corresponde a un acuerdo de confidencialidad?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto:
+                'Compartir información con otros trabajadores siempre que pertenezcan a la misma organización.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'Guardar copias personales de documentos cuando puedan ser útiles para actividades laborales posteriores.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto:
+                'Utilizar la información únicamente para los fines autorizados relacionados con las funciones asignadas.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Mantener disponibles los datos después de finalizar funciones para facilitar posibles consultas futuras.',
               esCorrecta: false,
             },
           ],
@@ -370,29 +415,33 @@ export default {
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Cuál es una buena práctica relacionada con las contraseñas y la autenticación?',
+          imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto:
+                'Utilizar una misma contraseña robusta para facilitar el acceso a todos los sistemas disponibles.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'Compartir las claves con compañeros del área para asegurar la continuidad de las actividades.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Mantener activos los accesos anteriores para facilitar posibles consultas de trabajadores retirados.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto:
+                'Activar el doble factor de autenticación cuando sea posible para fortalecer el control.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -400,29 +449,32 @@ export default {
         },
         {
           id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
+          texto: '¿Cuál es la finalidad principal de las copias de seguridad?',
+          imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto:
+                'Recuperar información ante pérdidas, daños, eliminaciones accidentales o incidentes de seguridad.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'Facilitar el acceso general de los trabajadores a todos los archivos almacenados institucionalmente.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Conservar indefinidamente información personal aunque haya desaparecido la finalidad que justificaba mantenerla.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Duplicar todas las bases personales en dispositivos particulares para garantizar disponibilidad inmediata.',
               esCorrecta: false,
             },
           ],
@@ -431,29 +483,32 @@ export default {
         },
         {
           id: 14,
-          texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
-          imagen: '@/assets/actividad/imagen4.png',
+          texto: '¿En qué consiste el control de accesos por perfiles?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto:
+                'Permitir que todos los trabajadores consulten información mientras utilicen credenciales personales correctamente asignadas.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto:
+                'Permitir que cada persona acceda únicamente a la información necesaria para sus funciones.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Asignar permisos generales a cada área para evitar solicitudes frecuentes de autorización institucional.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Autorizar automáticamente las descargas de información cuando provengan de equipos registrados institucionalmente.',
               esCorrecta: false,
             },
           ],
@@ -463,29 +518,208 @@ export default {
         {
           id: 15,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
+            '¿Qué característica distingue principalmente a los controles físicos de protección?',
+          imagen: '@/assets/actividad/imagen3.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Definen las finalidades autorizadas para recolectar y utilizar los datos personales de titulares.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Establecen los procedimientos internos que deben aplicar las diferentes áreas para gestionar información.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Protegen documentos, equipos, archivos, soportes y espacios donde permanece almacenada información personal.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'Determinan las configuraciones digitales utilizadas para autenticar usuarios y cifrar las bases personales.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 16,
+          texto:
+            '¿Qué derecho puede ejercer un titular respecto de sus datos personales?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto:
+                'Solicitar acceso permanente a todas las bases de datos administradas por la organización responsable.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'Modificar directamente cualquier registro institucional sin presentar previamente una solicitud ante el responsable.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Exigir que toda información personal sea eliminada inmediatamente sin considerar las condiciones aplicables.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Solicitar la actualización, rectificación o supresión de sus datos cuando corresponda.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 17,
+          texto:
+            '¿Cuál de las siguientes situaciones puede considerarse un incidente de seguridad?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Enviar información personal por equivocación a un destinatario que no estaba autorizado.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto:
+                'Actualizar correctamente una base después de recibir una solicitud presentada por el titular.',
               esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Restringir el acceso a documentos personales únicamente a trabajadores previamente autorizados para consultarlos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Eliminar información que dejó de ser necesaria mediante un procedimiento institucional previamente establecido.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 18,
+          texto:
+            '¿Qué debe hacer una organización cuando identifica un incidente relacionado con datos personales?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Eliminar inmediatamente cualquier evidencia disponible para impedir la divulgación posterior del incidente ocurrido.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Registrar lo ocurrido, evaluar su impacto y aplicar las acciones correctivas y preventivas necesarias.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Esperar nuevos incidentes similares antes de modificar los procedimientos y controles internos correspondientes.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Comunicar públicamente toda la información afectada para garantizar transparencia frente a cualquier persona interesada.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 19,
+          texto:
+            '¿Qué situación puede generar un riesgo legal relacionado con el tratamiento de datos personales?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Mantener canales definidos para atender las consultas y solicitudes presentadas por los titulares.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Revisar periódicamente las políticas internas cuando cambien procesos, finalidades o formas de almacenamiento.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Utilizar datos personales para finalidades diferentes de aquellas previamente informadas y autorizadas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'Aplicar medidas reforzadas de seguridad cuando se manejan datos sensibles dentro de la organización.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 20,
+          texto:
+            '¿Qué busca la mejora continua en la protección de datos personales?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Mantener permanentemente los mismos controles para garantizar uniformidad en todos los procesos organizacionales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Actualizar exclusivamente los sistemas tecnológicos cuando ocurra un incidente grave relacionado con información personal.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Conservar las políticas originales aunque cambien las finalidades, plataformas y responsables del tratamiento.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Revisar periódicamente los controles, identificar cambios y aplicar ajustes para fortalecer la protección de los datos personales.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
