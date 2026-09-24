@@ -16,7 +16,7 @@
             img(src='@/assets/curso/temas/t3/img1.png', alt='' style="width: 400px").m-auto
       .bg___color_1
         .px-5
-          p.mb-0 La gestión de solicitudes, incidentes y riesgos debe integrarse con las políticas internas de tratamiento de datos, los controles administrativos, técnicos y físicos, y las responsabilidades asignadas a cada área. De esta manera, se evita actuar de forma improvisada cuando un titular presenta una petición o cuando ocurre una situación que compromete la seguridad de la información.
+          p.mb-0 La gestión de solicitudes, incidentes y riesgos debe integrarse con las políticas internas de tratamiento de datos, los controles administrativos, técnicos y físicos; y las responsabilidades asignadas a cada área. De esta manera, se evita actuar de forma improvisada cuando un titular presenta una petición o cuando ocurre una situación que compromete la seguridad de la información.
           Separador
           #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
             h2 3.1 Atención de derechos de los titulares
@@ -452,7 +452,7 @@
 </template>
 
 <script>
-import audio1 from '@/assets/curso/temas/t3/audios/audio-ej.mp3'
+import audio1 from '@/assets/curso/temas/t3/audios/Podcast_Riesgos_divulgacion_indebida.mp3'
 export default {
   name: 'Tema3',
   data: () => ({

@@ -58,7 +58,7 @@
             .row(titulo="Políticas y procedimientos").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 La organización debe establecer orientaciones para la recolección, uso, conservación y protección de los datos personales. Los procedimientos permiten trasladar estas orientaciones a las actividades cotidianas de cada área.
             .row(titulo="Capacitación y confidencialidad").ajuste-cajaAcordion.ajuste-vineta
-              p.mb-3 El personal que maneja información personal debe conocer sus responsabilidades y las prácticas aplicables a sus funciones. Los acuerdos de confidencialidad complementan este control cuando, por las características del proceso, resulten necesarios.
+              p.mb-3 El personal que maneja información personal debe conocer sus responsabilidades y las prácticas aplicables a sus funciones. Los acuerdos de confidencialidad complementan este control cuando, por las características del proceso, resultan necesarios.
             .row(titulo="Atención a titulares").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 Deben existir canales definidos para recibir y gestionar consultas o reclamos relacionados con datos personales. Estos mecanismos permiten organizar la atención y asignar responsables para su trámite.
             .row(titulo="Inventario y conservación").ajuste-cajaAcordion.ajuste-vineta

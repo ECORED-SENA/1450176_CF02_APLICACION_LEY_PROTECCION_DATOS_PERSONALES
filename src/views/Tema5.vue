@@ -359,7 +359,7 @@
                 .col-8
                   img(src='@/assets/curso/temas/t5/img34.svg' style="max-width: 90px").m-auto
               h4.mb-3.estilo-text Datos sensibles y menores de edad
-              p.mb-0.text-center Aborda las condiciones especiales de manejo de información que requiere mayores medidas de protección y confidencialidad.
+              p.mb-0.text-center Aborda las condiciones especiales de manejo de información que requieren mayores medidas de protección y confidencialidad.
             .tarjeta.color-acento-botones.p-4
               .row.justify-content-center.mb-3
                 .col-8
@@ -518,7 +518,7 @@
                   img(src='@/assets/curso/temas/t5/img54.svg' style="max-width: 90px").m-auto
               h4.mb-3.estilo-text Terceros y evaluación de controles
               p.mb-0.text-center Revisar los contratos con terceros que traten datos y evaluar periódicamente la efectividad de los controles implementados.
-          p.mb-5 Estas recomendaciones deben integrarse a la gestión diaria de la organización. La protección de datos personales no debe asumirse como una actividad aislada, sino como parte de los procesos administrativos, tecnológicos, jurídicos y operativos.
+          p.mb-5 Estas recomendaciones deben integrarse en la gestión diaria de la organización. La protección de datos personales no debe asumirse como una actividad aislada, sino como parte de los procesos administrativos, tecnológicos, jurídicos y operativos.
           .titles___box_tercer_nivel.mb-5(data-aos="fade-right")
             .col-lg-auto
               figure
